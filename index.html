@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shahzaib Awan</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" href="Assets/icon.png">
+
+    <script defer src="js/script.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <section class="hero-section" id="section-1">
+        <div class="hero-title-container">
+          <h1 class="hero-title"><a href="#">Shahzaib Awan</a></h1>
+          <label class="switch">
+            <span class="sun">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <g fill="#ffd43b">
+                  <circle r="5" cy="12" cx="12"></circle>
+                  <path
+                    d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"
+                  ></path>
+                </g>
+              </svg>
+            </span>
+            <span class="moon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                  d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"
+                ></path>
+              </svg>
+            </span>
+            <input
+              type="checkbox"
+              class="input"
+              onchange="toggleTheme()"
+              id="slider"
+            />
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="hero-content">
+          <div class="left-column">
+            <div class="profile-container">
+              <img
+                class="profile-logo"
+                src="Assets/icon.png"
+                alt="Profile Logo"
+              />
+              <div class="status-container">
+                <div class="status-indicator"></div>
+                Available for work
+              </div>
+            </div>
+            <div class="headline">
+              <h1 class="headline-main">More than just</h1>
+              <h1 class="headline-main typing">
+                the <span class="highlight typed-text"></span
+                ><span class="cursor">&nbsp;</span>
+              </h1>
+            </div>
+            <p class="tagline">Transforming Ideas into Digital Masterpieces.</p>
+            <button class="cta">
+              <span>Hire Me</span>
+              <svg width="15px" height="10px" viewBox="0 0 13 10">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="right-column">
+            <img
+              class="main-image"
+              src="Assets/vs-code-icon.png"
+              alt="Main Image"
+            />
+          </div>
+        </div>
+        <!-- menu -->
+        <div class="button-container">
+          <a class="button" href="#section-1" data-tooltip="Home">
+            <svg
+              class="icon"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"
+              ></path>
+            </svg>
+          </a>
+          <a class="button" href="#section-2" data-tooltip="About">
+            <svg
+              class="icon"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2.5a5.5 5.5 0 0 1 3.096 10.047 9.005 9.005 0 0 1 5.9 8.181.75.75 0 1 1-1.499.044 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.5-.045 9.005 9.005 0 0 1 5.9-8.18A5.5 5.5 0 0 1 12 2.5ZM8 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z"
+              ></path>
+            </svg>
+          </a>
+          <a class="button" href="#section-3" data-tooltip="Projects">
+            <svg
+              class="icon"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3 4H9L11 6H21C22.1046 6 23 6.89543 23 8V20C23 21.1046 22.1046 22 21 22H3C1.89543 22 1 21.1046 1 20V6C1 4.89543 1.89543 4 3 4Z"
+              ></path>
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 11H18"
+              ></path>
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 15H18"
+              ></path>
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 11H7"
+              ></path>
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 15H7"
+              ></path>
+            </svg>
+          </a>
+          <a class="button" href="#section-4" data-tooltip="Pricing">
+            <svg
+              class="icon"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.9042 2.10025L20.8037 3.51446L22.2179 13.414L13.0255 22.6063C12.635 22.9969 12.0019 22.9969 11.6113 22.6063L1.71184 12.7069C1.32131 12.3163 1.32131 11.6832 1.71184 11.2926L10.9042 2.10025ZM11.6113 4.22157L3.83316 11.9997L12.3184 20.485L20.0966 12.7069L19.036 5.28223L11.6113 4.22157ZM13.7327 10.5855C12.9516 9.80448 12.9516 8.53815 13.7327 7.7571C14.5137 6.97606 15.78 6.97606 16.5611 7.7571C17.3421 8.53815 17.3421 9.80448 16.5611 10.5855C15.78 11.3666 14.5137 11.3666 13.7327 10.5855Z"
+              ></path>
+            </svg>
+          </a>
+          <a class="button" href="#section-5" data-tooltip="Contact">
+            <svg
+              class="icon"
+              stroke="currentColor"
+              fill="none"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 16.92V21a2 2 0 0 1-2.18 2 19.76 19.76 0 0 1-8.63-3.07 19.32 19.32 0 0 1-6-6A19.76 19.76 0 0 1 2 4.18 2 2 0 0 1 4 2h4.08a2 2 0 0 1 2 1.72 12.17 12.17 0 0 0 .57 2.58 2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.17 12.17 0 0 0 2.58.57A2 2 0 0 1 22 16.92z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- Section 02 About-->
+      <section class="about-section" id="section-2">
+        <div class="about-header">
+          <h1 class="section-title">About Me</h1>
+          <p class="section-subtitle">
+            Here you will find more information about me, what I do, and my
+            current skills mostly in terms of programming and technology.
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-info">
+            <h3 class="info-title">Get to know me!</h3>
+            <p class="info-text">
+              I'm a <b>Frontend Focused Web Developer</b> building and managing
+              the front-end of websites and web applications that lead to the
+              success of the overall product. Check out some of my work in the
+              <b>Projects</b> section. <br /><br />
+              I also like sharing content related to what I have learned over
+              the years in <b>Web Development</b> to help others in the Dev
+              Community. Feel free to connect or follow me on
+              <a href="https://www.linkedin.com" class="social-link"
+                >LinkedIn</a
+              >
+              and
+              <a href="https://www.instagram.com" class="social-link"
+                >Instagram</a
+              >, where I post useful content related to web development and
+              programming. <br /><br />
+              I'm open to <b>Job</b> opportunities where I can contribute,
+              learn, and grow. If you have a good opportunity that matches my
+              skills and experience, then don't hesitate to <b>contact</b> me.
+            </p>
+            <button class="cta-02">
+              <span>Contact</span>
+              <svg width="15px" height="10px" viewBox="0 0 13 10">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+
+          <div class="about-skills">
+            <h3 class="skills-title">My Skills</h3>
+            <p class="skills-list">
+              <span class="skill-tag">HTML 5</span>
+              <span class="skill-tag">CSS 3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Responsive Design</span>
+              <span class="skill-tag">Bootstrap</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 03 Projects  -->
+      <section class="about-section" id="section-3">
+        <div class="about-header project-section">
+          <h1 class="section-title">Projects</h1>
+          <p class="section-subtitle">
+            Explore my professional journey, discover what I do, and learn about
+            my current skills, focusing on programming and technology.
+          </p>
+        </div>
+        <div class="content">
+          <div class="works-list">
+            <div class="item">
+              <img src="Assets/trying.png" />
+              <div class="details">
+                <h3 class="info-title">Capture Screenshots</h3>
+                <div class="item-info">
+                  <div class="year-badge">2023</div>
+                  <h4 class="info-text">Html / CSS</h4>
+                </div>
+                <p class="info-text sans">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos eos ratione beatae voluptas aliquam illo maxime.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="Assets/trying.png" />
+              <div class="details">
+                <h3 class="info-title">Capture Screenshots</h3>
+                <div class="item-info">
+                  <div class="year-badge">2023</div>
+                  <h4 class="info-text">JavaScript</h4>
+                </div>
+                <p class="info-text sans">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos eos ratione beatae voluptas aliquam illo maxime.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 04 Pricing  -->
+      <section class="about-section" id="section-4">
+        <div class="about-header project-section">
+          <h1 class="section-title">Pricing</h1>
+          <p class="section-subtitle">
+            Explore competitive pricing for professional front-end web
+            development tailored to your needs.
+          </p>
+        </div>
+
+        <div class="price-main">
+          <div class="card-container">
+            <div class="card-content">
+              <div class="card-title">Small</div>
+              <div class="card-price">$17.99</div>
+              <div class="card-description">
+                <span>01 Page Website</span><span>Access to basic support</span
+                ><span>Delivered within 5 business days.</span
+                ><span>Basic customization options</span>
+              </div>
+            </div>
+
+            <button class="buy">Buy now</button>
+          </div>
+          <div class="card-container">
+            <div class="card-content">
+              <div class="card-title">Medium</div>
+              <div class="card-price">$59.99</div>
+              <div class="card-description">
+                <span>01-04 Pages Website</span><span>Everything in Basic</span
+                ><span>Delivered within 9 business days.</span
+                ><span>Additional customization options</span
+                ><span>Priority support</span>
+              </div>
+            </div>
+
+            <button class="buy">Buy now</button>
+          </div>
+          <div class="card-container">
+            <div class="card-content">
+              <div class="card-title">Big</div>
+              <div class="card-price">$104.99</div>
+              <div class="card-description">
+                <span>01-07 Pages Website</span
+                ><span>Everything in Standard</span
+                ><span>Delivered within 15 business days.</span
+                ><span>Unlimited customization options</span
+                ><span>Priority support</span
+                ><span>24/7 dedicated support</span>
+              </div>
+            </div>
+
+            <button class="buy">Buy now</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 05 Contact -->
+      <section class="about-section" id="section-5">
+        <div class="background">
+          <div class="container">
+            <div class="screen">
+              <div class="screen-header">
+                <div class="screen-header-left">
+                  <div class="screen-header-button close"></div>
+                  <div class="screen-header-button maximize"></div>
+                  <div class="screen-header-button minimize"></div>
+                </div>
+                <div class="screen-header-right">
+                  <div class="screen-header-ellipsis"></div>
+                  <div class="screen-header-ellipsis"></div>
+                  <div class="screen-header-ellipsis"></div>
+                </div>
+              </div>
+              <div class="screen-body">
+                <div class="screen-body-item left">
+                  <div class="app-title">
+                    <span>CONTACT</span>
+                    <span>US</span>
+                  </div>
+                  <div class="app-contact">
+                    <span>NAME : SHAHZAIB AWAN</span
+                    ><span>GMAIL : SHAHZAIBAWAN1357@GMAIL.COM</span>
+                    <span>CONTACT INFO : +92-**1-8**01**</span>
+                  </div>
+                </div>
+                <div class="screen-body-item">
+                  <div class="app-form">
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="NAME" />
+                    </div>
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="EMAIL" />
+                    </div>
+                    <div class="app-form-group">
+                      <input
+                        class="app-form-control"
+                        placeholder="CONTACT NO"
+                      />
+                    </div>
+                    <div class="app-form-group message">
+                      <input class="app-form-control" placeholder="MESSAGE" />
+                    </div>
+                    <div class="app-form-group buttons">
+                      <button class="cta-02" style="scale: 0.8">
+                        <span>Send</span>
+                        <svg width="15px" height="10px" viewBox="0 0 13 10">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-socials">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <p class="footer-copy">Copyright ©2024, All rights reserved.</p>
+      </footer>
+    </main>
+  </body>
+</html>

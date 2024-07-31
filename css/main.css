@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+  --dark-background: #121212;
+  --light-background: #f5f5f5;
+  --white-color: #ffffff;
+  --blue-color: #008BD2;
+  --dark: #121212;
+
+  --Sans-font: "Source Sans Pro", sans-serif;
+  --Ubuntu-font: "Ubuntu", sans-serif;
+  --Open-font: "Open Sans", sans-serif;
+  --Kanit-font: "Kanit", sans-serif;
+}
+
+.theme-dark {
+  --dark-background: #121212;
+  --dark: #121212;
+  --light-background: #f5f5f5;
+  --white-color: #ffffff;
+  --white-clr: #f5f4f4;
+  --blue-color: #008BD2;
+  --status-green: #6ef06a;
+}
+.theme-light {
+  --dark-background: #f5f5f5;
+  --light-background: #121212;
+  --white-color: #121212;
+  --white-clr: #f5f4f4;
+  --dark: #121212;
+  --blue-color: #008BD2;
+  --status-green: #6ef06a;
+}
+
+::selection {
+  background-color: var(--blue-color);
+  color: var(--dark-background);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
